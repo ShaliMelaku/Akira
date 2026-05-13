@@ -5,12 +5,12 @@ import { Search, Plus, Mail, Phone, MoreHorizontal, Star, X } from 'lucide-react
 import { motion, AnimatePresence } from 'framer-motion';
 
 const clients = [
-  { id: 1, name: 'Abebe Kebede', company: 'Awash Bank', email: 'abebe@awashbank.com', phone: '+251 911 000 001', type: 'Commercial', status: 'Active', value: '85K ETB', rating: 5, projects: 3 },
-  { id: 2, name: 'Sarah Tesfaye', company: 'Safaricom Ethiopia', email: 'sarah@safaricom.et', phone: '+251 912 000 002', type: 'Campaign', status: 'Active', value: '120K ETB', rating: 5, projects: 2 },
-  { id: 3, name: 'Dawit Haile', company: 'Creative Agency ET', email: 'dawit@agency.et', phone: '+251 913 000 003', type: 'Film', status: 'Completed', value: '45K ETB', rating: 4, projects: 1 },
-  { id: 4, name: 'Meron Alemu', company: 'Ethiopian Airlines', email: 'meron@ethiopianair.com', phone: '+251 914 000 004', type: 'Voiceover', status: 'Prospect', value: '60K ETB', rating: 4, projects: 0 },
-  { id: 5, name: 'Yonas Bekele', company: 'Habesha Cement', email: 'yonas@habesha.com', phone: '+251 915 000 005', type: 'Commercial', status: 'Active', value: '95K ETB', rating: 5, projects: 4 },
-  { id: 6, name: 'Hiwot Girma', company: 'Telebirr', email: 'hiwot@telebirr.com', phone: '+251 916 000 006', type: 'Social', status: 'Completed', value: '30K ETB', rating: 3, projects: 1 },
+  { id: 1, name: 'Abebe Kebede', company: 'Awash Bank', email: 'blackforestua40@gmail.com', phone: '+251 911 000 001', type: 'Commercial', status: 'Active', value: '85K ETB', rating: 5, projects: 3 },
+  { id: 2, name: 'Sarah Tesfaye', company: 'Safaricom Ethiopia', email: 'blackforestua40@gmail.com', phone: '+251 912 000 002', type: 'Campaign', status: 'Active', value: '120K ETB', rating: 5, projects: 2 },
+  { id: 3, name: 'Dawit Haile', company: 'Creative Agency ET', email: 'blackforestua40@gmail.com', phone: '+251 913 000 003', type: 'Film', status: 'Completed', value: '45K ETB', rating: 4, projects: 1 },
+  { id: 4, name: 'Meron Alemu', company: 'Ethiopian Airlines', email: 'blackforestua40@gmail.com', phone: '+251 914 000 004', type: 'Voiceover', status: 'Prospect', value: '60K ETB', rating: 4, projects: 0 },
+  { id: 5, name: 'Yonas Bekele', company: 'Habesha Cement', email: 'blackforestua40@gmail.com', phone: '+251 915 000 005', type: 'Commercial', status: 'Active', value: '95K ETB', rating: 5, projects: 4 },
+  { id: 6, name: 'Hiwot Girma', company: 'Telebirr', email: 'blackforestua40@gmail.com', phone: '+251 916 000 006', type: 'Social', status: 'Completed', value: '30K ETB', rating: 3, projects: 1 },
 ];
 
 const statusColors: Record<string, string> = {
@@ -156,7 +156,7 @@ export default function ClientsPage() {
                   </div>
                   <div className="form-group">
                     <label className="form-lbl">Email Address</label>
-                    <input className="form-input" type="email" placeholder="abebe@company.com" />
+                    <input className="form-input" type="email" placeholder="blackforestua40@gmail.com" />
                   </div>
                   <div className="form-group">
                     <label className="form-lbl">Phone Number</label>

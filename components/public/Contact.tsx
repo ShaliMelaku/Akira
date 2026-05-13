@@ -113,7 +113,7 @@ export default function Contact({ hideHeader = false }: ContactProps) {
 
                   <div className="form-group-editorial">
                     <label>Email (required)</label>
-                    <input type="email" name="email" required className="editorial-input" aria-label="Email Address" title="Email Address" placeholder="your@email.com" onPaste={e => e.preventDefault()} />
+                    <input type="email" name="email" required className="editorial-input" aria-label="Email Address" title="Email Address" placeholder="blackforestua40@gmail.com" onPaste={e => e.preventDefault()} />
                   </div>
 
                   <div className="form-group-editorial">

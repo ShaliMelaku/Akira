@@ -116,7 +116,7 @@ export default function SettingsPage() {
                 </div>
                 <div className="form-group">
                   <label className="form-lbl">Primary Email</label>
-                  <input className="form-input" type="email" value={profile.email} onChange={e => setProfile(p => ({ ...p, email: e.target.value }))} title="Email Address" placeholder="email@example.com" onPaste={e => e.preventDefault()} />
+                  <input className="form-input" type="email" value={profile.email} onChange={e => setProfile(p => ({ ...p, email: e.target.value }))} title="Email Address" placeholder="blackforestua40@gmail.com" onPaste={e => e.preventDefault()} />
                 </div>
               </div>
               <div className="form-row-2">

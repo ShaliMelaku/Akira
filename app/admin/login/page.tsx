@@ -77,7 +77,7 @@ export default function AdminLogin() {
                 required 
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                placeholder="admin@aether.studio" 
+                placeholder="blackforestua40@gmail.com" 
               />
             </div>
           </div>
